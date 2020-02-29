@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "Keil",
+            "compilerPath": "${workspaceFolder}\\.vscode\\compileKeil.bat",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Keil_v5/C51/INC/**",
+                "D:/Keil_v5/ARM/ARMCC/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__CC_ARM",
+                "pin=/**/",
+                "sfr=/**/",
+                "sfr16=/**/",
+                "idata=/**/",
+                "bdata=/**/",
+                "data=/**/",
+                "xdata=/**/",
+                "code=/**/",
+                "sbit=/**/",
+                "at=/**/",
+                "interrupt=/**/"
+            ],
+            "cStandard": "c99",
+            "compilerArgs": [
+                "\"${workspaceFolder}\"",
+                "\"${workspaceFolder}\\src\"",
+                "main"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/.browse.c_cpp.db",
+                "path": [
+                    "${workspaceFolder}/**",
+                    "D:/Keil_v5/C51/INC/**",
+                    "D:/Keil_v5/ARM/ARMCC/**"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

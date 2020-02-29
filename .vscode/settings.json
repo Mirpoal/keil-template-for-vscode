@@ -1,0 +1,26 @@
+{
+    "editor.wordBasedSuggestions": false,
+    "editor.tabCompletion": "on",
+    "editor.suggest.localityBonus": true,
+    "editor.suggestSelection": "recentlyUsed",
+
+    "files.associations": {
+        "reg52.h": "c",
+        "8052.h": "c",
+        "RC522.C": "cpp",
+        "type_traits": "cpp",
+        "intrins.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "python.pythonPath": "C:\\Python38\\python.exe",
+
+    "files.exclude": {
+        "MDKProj": true
+    },
+
+    "uvPath": "C:/Keil_v5/UV4/UV4.exe",
+    "uvprojxPath": "E:/1workspace/keilProj/template-vscode/MDKProj/template.uvproj",
+    "uvAgentPath": "E:/1workspace/keilProj/template-vscode/.vscode/uvproxy.py",
+
+}
